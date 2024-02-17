@@ -10,24 +10,24 @@ class SitioController extends Controller
 
     //cuando ingresan al index
     public function index(){
-
+        return view('Sitio.index');
     }
 
 
     //cuando ingresan a la pagína de contacto
     public function contacto(){
-
+      return view('Sitio.contacto');
 
     }
 
     //cuando ingresan a la pagína de nosotros
     public function nosotros(){
-
+        return view('Sitio.nosotros');
     }
 
     //cuando ingresan a la pagína de productos
     public function productos(){
-
+        return view('Sitio.productos');
     }
 
     //cuando ingresan a la pagína de comprar enviara a whatssapp
